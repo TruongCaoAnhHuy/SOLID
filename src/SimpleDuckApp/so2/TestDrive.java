@@ -1,5 +1,9 @@
 package SimpleDuckApp.so2;
 
+/**
+ * Code cứng, khó tái sử dụng
+ */
+
 public class TestDrive {
     public static void main(String[] args) {
         MallarDuck mallarDuck = new MallarDuck();
@@ -24,6 +28,6 @@ public class TestDrive {
 
         DecoyDuck decoyDuck = new DecoyDuck();
         decoyDuck.display();
-
+        
     }
 }
